@@ -11,6 +11,7 @@ This tool is ideal for phones without cameras or web browsers, or for quickly se
 1. A Twilio phone number and API credentials (costs a fraction of a cent per text)
 2. A computer to build and use this web app
 3. A VPS with a web server exposed to the internet (costs ~$5 a month, depending on what provider you choose). Alternatively, this tool could probably be extended to work with a third-party cloud storage API (e.g. Google Drive or Dropbox).
+4. A dumbphone with a copy/paste or text forwarding feature
 
 #### Example Use Cases
 
@@ -39,7 +40,6 @@ This tool is ideal for phones without cameras or web browsers, or for quickly se
 1. Docker
 2. Twilio API credentials
 3. A VPS with a web server
-4. A dumbphone with a copy/paste or text forwarding feature
 
 ##### Instructions:
 
