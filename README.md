@@ -42,8 +42,8 @@ This tool is useful if your phone lacks a camera, doesn't have a web browser, or
 
 1. `git clone git@github.com:szimonisz/sms-link.git`
 2. `mkdir sms-link/docker/keys`
-3. `cp ~/.ssh/vps-key.pub sms-link/docker/keys`
-4. `cp ~/.ssh/vps-key sms-link/docker/keys`
+3. `cp ~/.ssh/your-vps-key.pub sms-link/docker/keys`
+4. `cp ~/.ssh/your-vps-key sms-link/docker/keys`
 5. `cp sms-link/config/config.template.php sms-link/config/config.php`
 6. Fill out `config.php` with your cell phone number, Twilio credentials, SSH credentials, and website configuration (for file hosting)
 7. `cd docker && docker compose build && docker compose up -d`
