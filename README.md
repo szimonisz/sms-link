@@ -65,5 +65,5 @@ This tool is ideal for phones without cameras or web browsers, or for quickly se
 
 ### TODO:
 
-1. Replace SCP with HTTP POST to the file hosting server's endpoint; avoid SSH key/Docker/apache handling mess
+1. Replace SCP with an HTTP POST to the file hosting server's endpoint; avoid SSH key/Docker/apache handling mess
 2. Finish writing this README
