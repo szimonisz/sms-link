@@ -30,10 +30,37 @@ This tool is useful if your phone lacks a camera, doesn't have a web browser, or
 5. Open the contact that you'd like to send it to
 6. Paste the link and hit send
 
+#### Building the App
+
+##### Requirements:
+
+1. Docker
+2. Twilio API credentials
+3. A VPS with a web server
+
+##### Instructions:
+
+1. `git clone git@github.com:szimonisz/sms-link.git`
+2. `mkdir sms-link/docker/keys`
+3. `cp ~/.ssh/vps-key.pub sms-link/docker/keys`
+4. `cp ~/.ssh/vps-key sms-link/docker/keys`
+5. `cp sms-link/config/config.template.php sms-link/config/config.php`
+6. Fill out `config.php` with your cell phone number, Twilio credentials, SSH credentials, and website configuration (for file hosting)
+7. `cd docker && docker compose build && docker compose up -d`
+8. Visit `localhost`
+
+###### Faceplate Image (Optional):
+
+1. Purchase the faceplate image [here](https://shegiva.gumroad.com/l/iphonewallpaperretro?layout=profile&recommended_by=library)
+2. Download the zip file and extract it
+3. `cp /path/to/zip/extraction/iPhone\ Plus\ \:\ Pro\ Max/blue.jpg sms-link/public/assets/img/faceplate.jpg`
+4. Refresh `localhost`
+5. To use a different color, repeat steps 3-4 with a different `{{color}}.jpg`
+
 ### Credits
 
 * [Font by Zeh Fernando](https://www.dafont.com/nokia-cellphone.font)
-* [Faceplate image by Shegiva](https://shegiva.gumroad.com/l/iphonewallpaperretro?layout=profile&recommended_by=library)
+* [Faceplate Image by Shegiva](https://shegiva.gumroad.com/l/iphonewallpaperretro?layout=profile&recommended_by=library)
   * This is a paid asset and is not included in the repository. You can purchase it via the link above.
 
 ### TODO:
