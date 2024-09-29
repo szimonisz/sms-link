@@ -39,6 +39,7 @@ This tool is ideal for phones without cameras or web browsers, or for quickly se
 1. Docker
 2. Twilio API credentials
 3. A VPS with a web server
+4. A dumbphone with a copy/paste or text forwarding feature
 
 ##### Instructions:
 
