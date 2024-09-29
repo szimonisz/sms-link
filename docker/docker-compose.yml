@@ -1,0 +1,12 @@
+services:
+  web:
+    container_name: sms-link-web
+    build: .
+    ports: 
+      - 80:80
+    volumes:
+      - ../public:/var/www/html
+      - ../src:/var/www/src
+      - ../config:/var/www/config
+      - ./keys:/keys
+    restart: always
