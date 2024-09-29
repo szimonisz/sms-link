@@ -1,4 +1,4 @@
-## SMS-Link: A File/URL Texting Helper for Dumbphones
+## SMS-Link: A File and URL Texting Helper for Dumbphone Users
 
 This tool is ideal for phones without cameras or web browsers, or for quickly sending files from your computer via text message. The result is a link or file on your physical phone, which you can forward to someone else.
 
