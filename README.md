@@ -2,7 +2,9 @@
 
 This tool is ideal for phones without cameras or web browsers, or for quickly sending files from your computer via text message. The result is a link or file on your physical phone, which you can forward to someone else.
 
-<img src="demo.gif" width=50%>
+<div align="center">
+  <img src="demo.gif" width=50%>
+</div>
 
 #### Requirements
 
