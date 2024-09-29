@@ -53,7 +53,7 @@ This tool is ideal for phones without cameras or web browsers, or for quickly se
 
 ###### Faceplate Image (Optional):
 
-1. Purchase the faceplate image [here](https://shegiva.gumroad.com/l/iphonewallpaperretro?layout=profile&recommended_by=library)
+1. Purchase the faceplate image from the artist [here](https://shegiva.gumroad.com/l/iphonewallpaperretro?layout=profile&recommended_by=library) (unaffiliated)
 2. Download the zip file and extract it
 3. `cp /path/to/zip/extraction/iPhone\ Plus\ \:\ Pro\ Max/blue.jpg sms-link/public/assets/img/faceplate.jpg`
 4. Refresh `localhost`
